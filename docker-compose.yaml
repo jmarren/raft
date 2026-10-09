@@ -1,0 +1,17 @@
+services:
+    node-1: 
+      build:
+        dockerfile: ./Dockerfile
+      volumes:
+        - ./src:/usr/src/app
+    node-2: 
+      build:
+        dockerfile: ./Dockerfile
+      volumes:
+        - ./src:/usr/src/app
+    node-3: 
+      build:
+        dockerfile: ./Dockerfile
+      volumes:
+        - ./src:/usr/src/app
+
